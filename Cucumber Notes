@@ -75,15 +75,15 @@ Class 4 -
     glue - the path of our step definitions package
     dryRun - if we set it to true, it stops actual execution and scans all the steps quickly
     and provide us missing step definition
-    monochrome - to remove irrelavant information from the console
+    monochrome - to remove irrelevant information from the console
     plugin - pretty - to print the steps in the console
     tags - to group the scenario for specific type of execution
 
 
 POM - page object model - it is a design pattern
 
-it allows QA's to keep object repository -
-in simple language, QA's write all the locators of the page in respective class
+it allows QAs to keep object repository -
+in simple language, QAs write all the locators of the page in respective class
 
 LoginPage -
 DashboardPage -
@@ -123,7 +123,7 @@ Class 6 -
     Recap -
         Page object model with page initializer class
         in this initializer class, we initialize all the objects of page classes and
-        call the method in common methods class in openbrowser method
+        call the method in common methods class in the openBrowser method
 
     We created a collection point in steps classes -
     -- methods call from common method, locators call from respective page classes using
@@ -196,7 +196,7 @@ maven lifecycle -
 
 
         when you run test -
-        this will execute compile - install - deploye - test
+        this will execute compile - install - deploy - test
 
 Database Testing:
 

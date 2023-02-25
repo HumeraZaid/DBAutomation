@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CucumberBatch14" />
         <module name="DBAutomation" />
+        <module name="DBAutomationAndAPI" />
       </profile>
     </annotationProcessing>
   </component>
